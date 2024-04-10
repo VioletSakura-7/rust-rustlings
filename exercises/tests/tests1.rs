@@ -10,12 +10,17 @@
 // Execute `rustlings hint tests1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+// 
+
 
 #[cfg(test)]
 mod tests {
+    pub fn is_five(num :i32)->bool{
+    num==5
+}
+ 
     #[test]
     fn you_can_assert() {
-        assert!();
+       assert!(is_five(5));
     }
 }
